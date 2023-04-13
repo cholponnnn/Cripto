@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#criptoPage{
+    height: 90vh;
+    text-align: center;
+    overflow: scroll;
+}
+#valutePage{
+    height: 90vh;
+    text-align: center;
+    overflow: scroll;
+}
+#tabBar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20%;
+}
+.hide{
+    display: none !important;
+}
+#tabBar img{
+    height: 50%;
+}
+#tabBar > div{
+    display: flex;
+    align-items: center;
+}
+.nominal{
+    margin-top: 20px;
+    font-size: 1.4em;
+}
